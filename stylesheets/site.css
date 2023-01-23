@@ -532,3 +532,7 @@ ul.socials li a:hover {
   opacity: 1;
   text-decoration: none;
 }
+
+ul.socials li a i {
+display: block;
+}
