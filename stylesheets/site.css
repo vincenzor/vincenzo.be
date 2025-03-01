@@ -456,10 +456,6 @@ header {
   color: #333;
 }
 
-#logo h2 {  
-  
-}
-
 #logo hr{
   border: 0;
   width: 80px;
@@ -467,13 +463,13 @@ header {
   margin: 2rem 0;
 }
 
-#main a {
+#main a:not(.picture) {
   transition: all 250ms ease;
   position: relative;
   opacity: .8;
 }
 
-#main a:after {
+#main a:not(.picture):after {
   background-color: #222;
   bottom: -1px;
   content: "";
@@ -486,8 +482,8 @@ header {
   transition: all 250ms ease-out;
 }
 
-#main a:hover,
-#main a.current {
+#main a:not(.picture):hover,
+#main a:not(.picture).current {
   opacity: 1;
   color: #111;
 }
