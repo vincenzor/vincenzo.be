@@ -1,55 +1,209 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <title>Vincenzo Ruggiero • CEO Atyik Watches • Entrepreneur based in Belgium</title>
+    <title>Vincenzo Ruggiero • Hacking & shipping stuff since the '90s</title>
     <link rel="stylesheet" href="/stylesheets/site.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="referrer" content="origin">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/7494430825.js" crossorigin="anonymous"></script>
+    <meta charset=UTF-8>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
   </head>
 
-  <body class="application">
-    <header>
+  <body class="md:flex h-screen">
+    <header class="md:w-1/2 p-10 md:p-20 md:pl-40 md:pt-[10%]">
       <div id="avatar">
         <a href="/"><img src="/images/profile-pic.png" /></a>
       </div>
       <div id="logo">
-        <a href="/">Vincenzo Ruggiero</a>
+        <h1 class="text-5xl md:text-7xl mb-4">Vincenzo Ruggiero</h1>
+        <h2 class="text-xl font-light">
+          Hacking & shipping stuff since the '90s. 
+          Happy dad. Made in 🇧🇪
+        </h2>
         <hr />
         <ul class="socials">
           <li>
             <a href="mailto:vincenzo.ruggiero@gmail.com" class="animated" title="Contact me by email">
-              <i class="fa-solid fa-envelope"></i>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="icon icon-tabler icons-tabler-outline icon-tabler-mail">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" />
+                <path d="M3 7l9 6l9 -6" />
+              </svg>
             </a>
           </li>
           <li>
-            <a href="https://twitter.com/VincenzoR" class="animated" title="VincenzoR on Twitter">
-              <i class="fa-brands fa-twitter fa-l"></i>
+            <a href="https://x.com/VincenzoR" class="animated" title="VincenzoR on X">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="icon icon-tabler icons-tabler-outline icon-tabler-brand-x">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M4 4l11.733 16h4.267l-11.733 -16z" />
+                <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
+              </svg>
             </a>
           </li>
           <li>
             <a href="https://www.instagram.com/VincenzoR/" class="animated" title="VincenzoR on Instagram">
-              <i class="fa-brands fa-instagram fa-l"></i>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M4 8a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+                <path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                <path d="M16.5 7.5v.01" />
+              </svg>
             </a>
           </li>
           <li>
             <a href="https://linkedin.com/in/VincenzoR/" class="animated" title="VincenzoR on LinkedIn">
-              <i class="fa-brands fa-linkedin fa-l"></i>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="icon icon-tabler icons-tabler-outline icon-tabler-brand-linkedin">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M8 11v5" />
+                <path d="M8 8v.01" />
+                <path d="M12 16v-5" />
+                <path d="M16 16v-3a2 2 0 1 0 -4 0" />
+                <path d="M3 7a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4z" />
+              </svg>
             </a>
           </li>
         </ul>
       </div>
-    <header>
-    <div id="main">
-      <p>
-        Happy dad. Entrepreneur. Hacking & shipping stuff since the '90s.
-      </p>
-      <p>
-        Currently building <a href="https://overloop.com">Overloop</a> & <a href="https://atypik.watch">Atypik Watches</a>.
-      </p>
+    </header>
+
+    <!-- Scroll wrapper -->
+    <div class="md:flex-1 md:flex md:overflow-hidden md:w-1/2 ">
+      <div id="main" class="md:flex-1 md:overflow-y-scroll p-10 md:p-20 md:pr-40">
+        <h3 class="mb-2">Currently building</h3>
+    
+        <article class="p-5 rounded-xl bg-linear-to-tr from-gray-100 to-gray-50 mb-4">
+          <div class="sm:flex gap-5">
+            <div
+              class="shrink-0 w-16 h-16 flex items-center justify-center">
+              <img src="/images/balzac.svg" alt="Balzac AI" class="w-16 h-16" />
+            </div>
+            <div>
+              <div class="space-y-1.5 mb-3">
+                <h4 class="font-semibold text-gray-800 dark:text-gray-100 mb-0">
+                  <a class="hover:underline decoration-2 decoration-gray-300 dark:decoration-gray-600 underline-offset-2"
+                    href="https://meetbalzac.ai">Balzac AI</a>
+                </h4>
+                <div class="text-[13px] italic text-gray-500/70">2025 - Today</div>
+              </div>
+              <p class="text-sm text-gray-600 dark:text-gray-400">Fully autonomous AI SEO Agent. Balzac is an all-in-one AI
+                agent that saves you time and effort by automating your SEO tasks. From keyword research to
+                post writing and publishing, Balzac handles everything for you.</p>
+            </div>
+          </div>
+        </article>
+    
+        <article class="p-5 rounded-xl bg-linear-to-tr from-gray-100 to-gray-50 mb-4">
+          <div class="sm:flex gap-5">
+            <div
+              class="shrink-0 w-16 h-16 flex items-center justify-center">
+              <img src="/images/overloop.svg" alt="Overloop" class="w-16 h-16" />
+            </div>
+            <div>
+              <div class="space-y-1.5 mb-3">
+                <h4 class="font-semibold text-gray-800 dark:text-gray-100 mb-0">
+                  <a class="hover:underline decoration-2 decoration-gray-300 dark:decoration-gray-600 underline-offset-2"
+                    href="https://overloop.com">Overloop</a>
+                </h4>
+                <div class="text-[13px] italic text-gray-500/70">2016 - Today</div>
+              </div>
+              <p class="text-sm text-gray-600 dark:text-gray-400">AI-powered Sales Prospecting Platform. Overloop is an AI
+                Agent that sources new prospects, writes your emails, and books meetings for you while you sleep.
+                Welcome to the future of sales!</p>
+            </div>
+          </div>
+        </article>
+    
+        <article class="p-5 rounded-xl bg-linear-to-tr from-gray-100 to-gray-50 mb-4">
+          <div class="sm:flex gap-5">
+            <div
+              class="shrink-0 w-16 h-16 flex items-center justify-center">
+              <img src="/images/bouncebuster.svg" alt="Bouncebuster" class="w-16 h-16" />
+            </div>
+            <div>
+              <div class="space-y-1.5 mb-3">
+                <h4 class="font-semibold text-gray-800 dark:text-gray-100 mb-0">
+                  <a class="hover:underline decoration-2 decoration-gray-300 dark:decoration-gray-600 underline-offset-2"
+                    href="https://bouncebuster.io">Bouncebuster</a>
+                </h4>
+                <div class="text-[13px] italic text-gray-500/70">2023 - Today</div>
+              </div>
+              <p class="text-sm text-gray-600 dark:text-gray-400">Bouncebuster is a real-time email verifier that helps you
+                fight bounce & increase email deliverability. Verify email
+                addresses before sending and protect your domain reputation.</p>
+            </div>
+          </div>
+        </article>
+    
+        <article class="p-5 rounded-xl bg-linear-to-tr from-gray-100 to-gray-50 mb-4">
+          <div class="sm:flex gap-5">
+            <div
+              class="shrink-0 w-16 h-16 flex items-center justify-center">
+              <img src="/images/atypik.svg" alt="Atypik" class="w-16 h-16" />
+            </div>
+            <div>
+              <div class="space-y-1.5 mb-3">
+                <h4 class="font-semibold text-gray-800 dark:text-gray-100 mb-0">
+                  <a class="hover:underline decoration-2 decoration-gray-300 dark:decoration-gray-600 underline-offset-2"
+                    href="https://atypik.watch">Atypik Watches</a>
+                </h4>
+                <div class="text-[13px] italic text-gray-500/70">2022 - Today</div>
+              </div>
+              <p class="text-sm text-gray-600 dark:text-gray-400">Atypik is an independent watch brand I created as a
+                passionate and collector of watches for years.</p>
+            </div>
+          </div>
+        </article>
+    
+        <h3 class="mt-10 mb-2">Previously</h3>
+        <article class="p-5 rounded-xl bg-linear-to-tr from-gray-100 to-gray-50 mb-4">
+          <div class="sm:flex gap-5">
+            <div
+              class="shrink-0 w-16 h-16 flex items-center justify-center">
+              <img src="/images/javry.svg" alt="Javry" class="w-16 h-16" />
+            </div>
+            <div>
+              <div class="space-y-1.5 mb-3">
+                <h4 class="font-semibold text-gray-800 dark:text-gray-100 mb-0">
+                  <a class="hover:underline decoration-2 decoration-gray-300 dark:decoration-gray-600 underline-offset-2"
+                    href="https://javry.com">Javry Coffee</a>
+                </h4>
+                <div class="text-[13px] italic text-gray-500/70">2013 - 2022 (sold)</div>
+              </div>
+              <p class="text-sm text-gray-600 dark:text-gray-400">Coffee as a service. Javry is specialized in fair-trade,
+                organic coffee, offering eco-friendly solutions to both
+                businesses and individuals.</p>
+            </div>
+          </div>
+        </article>
+        <article class="p-5 rounded-xl bg-linear-to-tr from-gray-100 to-gray-50 mb-4">
+          <div class="space-y-1.5 mb-3">
+            <h4 class="font-semibold text-gray-800 dark:text-gray-100 mb-0">
+              <span class="hover:underline decoration-2 decoration-gray-300 dark:decoration-gray-600 underline-offset-2">Other projects</span>
+            </h4>
+            <div class="text-[13px] italic text-gray-500/70">2007 - 2013</div>
+          </div>
+          <p class="text-sm text-gray-600">Over the years I've worked on a lot of great projects. Here are some of them:</p>
+          <ul class="list-disc list-inside mt-2">
+            <li class="text-sm text-gray-500"><strong>Shopigram</strong>: Vinted before Vinted was cool (sold)</li>
+            <li class="text-sm text-gray-500"><strong>LaPatate.be</strong>: Funny Belgian T-Shirts Ecommerce (sold)</li>
+            <li class="text-sm text-gray-500"><strong>Taskii</strong>: Project Management SaaS (sold)</li>
+            <li class="text-sm text-gray-500"><strong>Pepper & Koffee</strong>: Web Agency (sold)</li>
+          </ul>
+        </article>
+      </div>
     </div>
   </body>
 </html>

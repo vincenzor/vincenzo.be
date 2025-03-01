@@ -154,11 +154,6 @@ dfn {
  * `article` contexts in Chrome, Firefox, and Safari.
  */
 
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
-
 /**
  * Add the correct background and color in IE 9-.
  */
@@ -426,11 +421,10 @@ textarea {
 body {
   background: #fff;
   text-align: left;
-  font-family: 'Roboto', serif;
+  font-family: 'Noto Sans', sans-serif;
   font-size: 18px;
   font-weight: 400;
   color: #666;
-  padding: 10%;
   letter-spacing: .2px;
 }
 
@@ -449,7 +443,7 @@ header {
 #avatar {
   margin-bottom: 20px;
   width: 50%;
-  max-width: 150px;
+  max-width: 100px;
 }
 
 #avatar img {
@@ -457,23 +451,20 @@ header {
   border-radius: 50%;
 }
 
-#logo {
-  margin-bottom: 5%;
+#logo h1{
+  font-family: 'DM Serif Display', serif;
+  color: #333;
 }
 
-#logo a{
-  color: #333;
-  padding-bottom: 10px;
-  font-size: 38px;
-  font-weight: 600;
-  border: 0;
+#logo h2 {  
+  
 }
 
 #logo hr{
   border: 0;
-  width: 50px;
-  border-bottom: 3px solid #333;
-  margin: 10px 0;
+  width: 80px;
+  border-bottom: 1px solid #333;
+  margin: 2rem 0;
 }
 
 #main a {
@@ -483,8 +474,8 @@ header {
 }
 
 #main a:after {
-  background-color: #333;
-  bottom: -7px;
+  background-color: #222;
+  bottom: -1px;
   content: "";
   height: 1px;
   left: 0;
@@ -507,16 +498,14 @@ header {
   transform: scaleX(1);
 }
 
-#main p {
-  margin: 0;
-  margin-bottom: 10px;
-  line-height: 1.5em;
+#main h3 {
+  font-size: 16px;
+  font-weight: 600;
 }
 
 ul.socials {
   list-style: none;
   margin: 0;
-  margin-top: 2rem;
   padding: 0;
   display: flex;
   width: 100%;
@@ -532,7 +521,6 @@ ul.socials li a:hover {
   opacity: 1;
   text-decoration: none;
 }
-
 ul.socials li a i {
-display: block;
+  display: block;
 }
